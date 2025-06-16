@@ -8,7 +8,7 @@ window.onload = function () {
             preloader.style.display = "none";  
             general.style.display = "block";  
         }  
-    }, 3000);  
+    }, 1000);  
 };  
 
 /* Chat Assistant */  

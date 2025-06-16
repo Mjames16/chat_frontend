@@ -1,15 +1,15 @@
- // Preloader  
-window.onload = function () {  
-    const preloader = document.getElementById("preloader");  
-    const content = document.getElementById("content");  
+//  // Preloader  
+// window.onload = function () {  
+//     const preloader = document.getElementById("preloader");  
+//     const content = document.getElementById("content");  
 
-    setTimeout(function () {  
-        if (preloader && general) {  
-            preloader.style.display = "none";  
-            general.style.display = "block";  
-        }  
-    }, 1000);  
-};  
+//     setTimeout(function () {  
+//         if (preloader && general) {  
+//             preloader.style.display = "none";  
+//             general.style.display = "block";  
+//         }  
+//     }, 1000);  
+// };  
 
 /* Chat Assistant */  
 const history = [];  

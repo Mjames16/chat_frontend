@@ -18,7 +18,7 @@ async function getChatResponse(userMessage) {
     const chatBody = document.querySelector(".chat-body");
 
     try {
-        const response = await fetch("http://localhost:5000/chat", {
+        const response = await fetch("https://chat-backend-qgh7.onrender.com/chat", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
